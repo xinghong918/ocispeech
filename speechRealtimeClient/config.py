@@ -1,0 +1,1 @@
+SPEECH_REALTIME_SERVER_URI=""#"ws://localhost:7890"
