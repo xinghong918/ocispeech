@@ -1,6 +1,7 @@
 ![alt text](images/01.png)
 
 - speechRealtimeServer
+  
 **setup python enviroment**
 ```python
 conda create --name speechserver python=3.10
@@ -47,7 +48,7 @@ pyinstaller --onefile main.py
 **run**
 ```python
 conda activate speechclient
-./main
+./mySpeechRTClient
 or
-./main --port 7899 --ws_port 7890
+./mySpeechRTClient --port 7899 --ws_port 7890
 ```
