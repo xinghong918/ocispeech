@@ -1,0 +1,19 @@
+conda create --name speechclient python=3.10
+conda activate speechclient
+pip install fastapi
+pip install uvicorn
+pip install websockets
+pip install pyaudio
+
+pip install pyinstaller
+pip install --upgrade pyinstaller
+pyinstaller --onefile main.py
+
+pyinstaller -F --paths=/opt/anaconda3/envs/speechclient/lib/python3.10/site-packages --python=/opt/anaconda3/envs/speechclient/bin/python  --icon=Oracle-Symbol.png --name=mySpeechRTClient main.py
+
+# then copy static files to the same folder of dist/main/main app
+
+./mySpeechRTClient
+或
+./mySpeechRTClient --port 7893 --ws_port 7895
+
