@@ -1,6 +1,6 @@
 ![alt text](images/01.png)
 
-- speechRealtimeServer
+### speechRealtimeServer
   
 **setup python enviroment**
 ```python
@@ -24,7 +24,7 @@ python main.py --port 7892 --ws_port 7891
 ```
 
 ----
-- speechRealtimeClient:
+### speechRealtimeClient
 
 **setup python enviroment**
 ```python
