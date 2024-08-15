@@ -40,8 +40,9 @@ pip install -r requirement.txt
 **export**
 ```python
 pip install pyinstaller
+# Mac
 pip install --upgrade pyinstaller
-pyinstaller --onefile main.py
+pyinstaller -F --paths=/opt/anaconda3/envs/speechclient/lib/python3.10/site-packages --python=/opt/anaconda3/envs/speechclient/bin/python  --icon=Oracle-Symbol.png --name=mySpeechRTClient main.py
 # then copy static files to the same folder of dist/main/main
 ```
 
