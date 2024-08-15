@@ -18,9 +18,9 @@ pip install libs/oci.ai_speech_realtime-0.2.0-2-py2.py3-none-any.whl
 **run**
 ```python
 conda activate speechserver
-./main
+python main.py
 or
-./main --port 7892 --ws_port 7891
+python main.py --port 7892 --ws_port 7891
 ```
 
 ----
